@@ -26,9 +26,17 @@ def afisare_tabla(tabla):
 # adaugam numerele din lista tabla in design
 
 def functie_adaugare(pozitie_j, semn):
+    # pozitie_j = "11"
+    # ran = int(pozitie_j[0]) - 1  # 0
+    # col = int(pozitie_j[1]) - 1  # 0
+    # tabla[ran][col] = " {}".format(semn)
+    # tabla[ran] -> tabla[0] = [11, 12, 13]
+    # tabla[ran][col] -> tabla[0][0] -> [11, 12, 13][0] = 11
+    afisare_tabla(tabla)
+
     for ran in range(3):
         for col in range(3):
-            if pozitie_j in str(tabla[ran][col]):
+            if pozitie_j in str(tabla[ran][col]): #pot sa fac si cu egal
                 tabla[ran][col] = " {}".format(semn)
                 afisare_tabla(tabla)
 
@@ -41,7 +49,7 @@ victorie_o = 0
 
 
 def rand():
-    global victorie_x, victorie_o, victorie_p
+    global victorie_x, victorie_o, victorie_p #sa returneze valoarea
     victorie_p = []
 
     if tabla[0][0] == tabla[0][1] == tabla[0][2]:
@@ -103,7 +111,7 @@ def coloana():
 def egalitate():
     eg = 0 #setam o variabila care sa numere cate semne de X si O sunt pe tabla
     for element in list(tabla):
-        if element == [" X"] or element == [ "O"]:
+        if element == [" X"] or element == [" O"]:
             eg += 1
     if eg == 9:
         print("Avem egalitate! \nVom reinitializa tabla de joc!")
@@ -191,7 +199,7 @@ def joc():
     j = 1
     while i:
 
-        try:
+        # try:
 
             pozitie_j = input("\n Jucator, tasteaza in cifre pozitia \npe care vrei sa o ocupi:\t")
             egalitate()
@@ -211,9 +219,9 @@ def joc():
                 print(" !!! Nu ai tastat cifre de pe tabla !!!")
                 j += 2
 
-        except():
-
-            print("Nu ai tastat cifre de pe tabla ")
+        # except():
+        #
+        #     print("Nu ai tastat cifre de pe tabla ")
 
 
 # IVR
