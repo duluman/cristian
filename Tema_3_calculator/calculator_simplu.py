@@ -51,14 +51,22 @@ def verificare(x, y, semn):
 
 r_final = 0
 
-try:
-    while r_final == 0:
+# try:
+#     while r_final == 0:
+#
+#         # try:
+#         x = int(input())
+#         semn=input()
+#         y = int(input())
+#         #r_partial=0
+#         verificare(x, y, semn)
+# except():
+#     print("Nu ai respectat sugestiile date")
 
-        # try:
-        x = int(input())
-        semn=input()
-        y = int(input())
-        #r_partial=0
-        verificare(x, y, semn)
-except():
-    print("Nu ai respectat sugestiile date")
+
+def test_verificare():
+    assert verificare(7, 8, '-')
+    r_partial == 1
+
+
+test_verificare()
