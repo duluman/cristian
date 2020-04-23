@@ -1,0 +1,23 @@
+Prima data afisam elevii cu nume si prenume si nota
+
+
+Cristian    Duluman 5
+Marius  Stancu 4
+Mario   Marinescu 8
+Viviana Preduna 9
+Cristina    Fudulu 7
+Razvan  Ionica 3
+Stefan  Stancu 7
+
+ 
+ Avem 135 caractere in text 
+ A doua oara ii facem anonimi si calculam media notelor 
+              
+Elevul are nota 5               
+Elevul are nota 4               
+Elevul are nota 8               
+Elevul are nota 9               
+Elevul are nota 7               
+Elevul are nota 3               
+Elevul are nota 7 
+ Media este:  6.142857142857143

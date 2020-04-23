@@ -1,0 +1,16 @@
+
+
+John	Smith	5
+Anna	Boleyn	4
+John	Smith	2
+Anna	Boleyn	10
+Andrew	Cox	1.5
+Cristian Duluman 5
+Marius Stancu 4
+Stefan Stancu 7
+Mario Marinescu 8
+Cristian Duluman 9
+Viviana Preduna 10
+Cristina Fudulu 7
+Razvan Ionica 3
+   spatiu   lasam    spatiu   Avem 215 caractere in text
